@@ -7,7 +7,7 @@ function App() {
     return (
         <Wrapper>
             <Background src={backgroundImage} alt="background" />
-            <Title>useState</Title>
+            <Title>Hello React</Title>
         </Wrapper>
     );
 }
@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     justify-items: center;
 `
 
-const Title = styled.h1`
+export const Title = styled.h1`
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
