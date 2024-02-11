@@ -1,10 +1,12 @@
 import './App.css';
-import LoadLocalData from "./sections/LoadLocalData";
+
+
+import ReactSuspense from "./sections/ReactSuspense";
 
 function App() {
     return (
         <div>
-            <LoadLocalData />
+            <ReactSuspense />
         </div>
     );
 }

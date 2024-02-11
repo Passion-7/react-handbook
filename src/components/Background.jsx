@@ -25,7 +25,7 @@ export const Title = styled.h1`
     text-align: center;
 `;
 
-const Description = styled.h2`
+export const Description = styled.h2`
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-style: normal;

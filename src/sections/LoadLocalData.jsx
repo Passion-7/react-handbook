@@ -1,6 +1,7 @@
 import Background, {Title, Wrapper} from "../components/Background";
 import styled from "styled-components";
 import NavigationButton from "../components/NavigationButton";
+import menuData from "../data/menuData";
 
 const LoadLocalData = () => {
     return (
@@ -21,26 +22,8 @@ const LoadLocalData = () => {
 
 const ButtonWrapper = styled.div`
     display: grid;
-    grid-template-columns: repeat(4, auto );
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
 `
-
-const  menuData = [
-    {
-        title: "Courses",
-        image: "https://designcode.io/images/icons/courses.svg"
-    },
-    {
-        title: "Tutorials",
-        image: "https://designcode.io/images/icons/tutorials.svg"
-    },
-    {
-        title: "Livestreams",
-        image: "https://designcode.io/images/icons/livestreams.svg"
-    },
-    {
-        title: "Pricing",
-        image: "https://designcode.io/images/icons/pricing.svg"
-    }
-]
 
 export default LoadLocalData;

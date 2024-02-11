@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const NavigationButton = (props) => {
     return (
-        <Wrapper>
+        <Wrapper onClick={props.onClick}>
             <Image src={props.image} />
             <Title>{props.title}</Title>
         </Wrapper>
